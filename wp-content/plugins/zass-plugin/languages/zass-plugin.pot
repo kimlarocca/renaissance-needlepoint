@@ -1,0 +1,2550 @@
+# Copyright (C) 2020 theAlThemist
+# This file is distributed under the same license as the Zass Plugin plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Zass Plugin 2.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zass-plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-03-12T21:42:49+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: zass-plugin\n"
+
+#. Plugin Name of the plugin
+msgid "Zass Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.althemist.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin containing the Zass theme functionality"
+msgstr ""
+
+#. Author of the plugin
+msgid "theAlThemist"
+msgstr ""
+
+#: importer/parsers.php:45
+#: importer/parsers.php:86
+#: importer/parsers.php:94
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: importer/parsers.php:46
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: importer/parsers.php:98
+#: importer/parsers.php:103
+#: importer/parsers.php:331
+#: importer/parsers.php:549
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:132
+#: importer/zass-wordpress-importer.php:141
+#: importer/zass-wordpress-importer.php:192
+#: importer/zass-wordpress-importer.php:196
+#: importer/zass-wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:197
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:213
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:238
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:265
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:267
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:284
+msgid "Submit"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:297
+msgid "Import author:"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:309
+msgid "or create new user with login name:"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:312
+msgid "as a new user:"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:320
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:322
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:323
+msgid "- Select -"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:373
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:426
+msgid "Failed to import category %s"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:470
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:521
+#: importer/zass-wordpress-importer.php:741
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:610
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:646
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:708
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:873
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:880
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:943
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:956
+msgid "Invalid file type"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:1014
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:1021
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:1026
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:1032
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:1133
+msgid "Import WordPress"
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:1140
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:1155
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: importer/zass-wordpress-importer.php:1156
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: incl/customizer/class-zass-customizer.php:23
+msgid "Zass Options"
+msgstr ""
+
+#: incl/customizer/class-zass-customizer.php:38
+msgid "Social Share Links"
+msgstr ""
+
+#: incl/customizer/class-zass-customizer.php:39
+msgid "Configure globally the social networks share links. They can be overridden for each post, page or portfolio on the edit page."
+msgstr ""
+
+#: incl/customizer/class-zass-customizer.php:59
+msgid "Enable social share links on single post, page and portfolio."
+msgstr ""
+
+#: incl/customizer/class-zass-customizer.php:81
+msgid "Enable social share links on single product pages."
+msgstr ""
+
+#: incl/metaboxes.php:28
+msgid "Page Layout Options"
+msgstr ""
+
+#: incl/metaboxes.php:41
+msgid "Page Layout Options is disabled for this page, because the page is set as Blog page from Settings->Reading."
+msgstr ""
+
+#: incl/metaboxes.php:47
+msgid "Page Layout Options is disabled for this page, because the page is set as Shop page."
+msgstr ""
+
+#: incl/metaboxes.php:106
+msgid "You can define layout specific options here."
+msgstr ""
+
+#: incl/metaboxes.php:109
+msgid "Full width or boxed layout"
+msgstr ""
+
+#: incl/metaboxes.php:111
+msgid "Override the global layout setting"
+msgstr ""
+
+#: incl/metaboxes.php:115
+msgid "Full-width"
+msgstr ""
+
+#: incl/metaboxes.php:117
+msgid "Boxed"
+msgstr ""
+
+#: incl/metaboxes.php:119
+msgid "Left Header"
+msgstr ""
+
+#: incl/metaboxes.php:122
+msgid "Top Menu Bar"
+msgstr ""
+
+#: incl/metaboxes.php:124
+#: incl/metaboxes.php:133
+#: incl/metaboxes.php:142
+#: incl/metaboxes.php:151
+#: incl/metaboxes.php:438
+#: shortcodes/shortcodes.php:2921
+msgid "Default"
+msgstr ""
+
+#: incl/metaboxes.php:126
+msgid "Show"
+msgstr ""
+
+#: incl/metaboxes.php:128
+msgid "Hide"
+msgstr ""
+
+#: incl/metaboxes.php:131
+msgid "Footer size"
+msgstr ""
+
+#: incl/metaboxes.php:135
+#: incl/metaboxes.php:144
+#: incl/metaboxes.php:153
+#: shortcodes/shortcodes.php:2644
+msgid "Standard"
+msgstr ""
+
+#: incl/metaboxes.php:137
+#: incl/metaboxes.php:155
+msgid "Fullwidth"
+msgstr ""
+
+#: incl/metaboxes.php:140
+msgid "Footer style"
+msgstr ""
+
+#: incl/metaboxes.php:146
+msgid "Reveal"
+msgstr ""
+
+#: incl/metaboxes.php:149
+msgid "Header size"
+msgstr ""
+
+#: incl/metaboxes.php:161
+msgid "Header Style"
+msgstr ""
+
+#: incl/metaboxes.php:170
+#: shortcodes/shortcodes.php:3848
+msgid "Normal"
+msgstr ""
+
+#: incl/metaboxes.php:174
+msgid "Transparent"
+msgstr ""
+
+#: incl/metaboxes.php:188
+msgid "Title with Image Background"
+msgstr ""
+
+#: incl/metaboxes.php:190
+msgid "Use image background for title"
+msgstr ""
+
+#: incl/metaboxes.php:214
+msgid "Manage Images"
+msgstr ""
+
+#: incl/metaboxes.php:214
+msgid "Select Title Background Image"
+msgstr ""
+
+#: incl/metaboxes.php:214
+msgid "Select"
+msgstr ""
+
+#: incl/metaboxes.php:217
+msgid "Page Subtitle"
+msgstr ""
+
+#: incl/metaboxes.php:219
+msgid "Title alignment"
+msgstr ""
+
+#: incl/metaboxes.php:331
+msgid "Page Structure Options"
+msgstr ""
+
+#: incl/metaboxes.php:344
+msgid "Page Structure Options are disabled for this page, because the page is set as Blog page from Settings->Reading."
+msgstr ""
+
+#: incl/metaboxes.php:349
+msgid "Page Structure Options are disabled for this page, because the page is set as Shop page."
+msgstr ""
+
+#: incl/metaboxes.php:409
+msgid "You can configure the page structure, using this options."
+msgstr ""
+
+#: incl/metaboxes.php:413
+msgid "Choose Top Menu"
+msgstr ""
+
+#: incl/metaboxes.php:422
+msgid "Show Title"
+msgstr ""
+
+#: incl/metaboxes.php:429
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: incl/metaboxes.php:436
+msgid "Show Social Share Links"
+msgstr ""
+
+#: incl/metaboxes.php:445
+msgid "Main Sidebar"
+msgstr ""
+
+#: incl/metaboxes.php:458
+#: incl/metaboxes.php:476
+#: incl/metaboxes.php:496
+#: incl/metaboxes.php:526
+msgid "default"
+msgstr ""
+
+#: incl/metaboxes.php:474
+msgid "Main Sidebar Position"
+msgstr ""
+
+#: incl/metaboxes.php:477
+#: shortcodes/shortcodes.php:2406
+#: shortcodes/shortcodes.php:2487
+#: shortcodes/shortcodes.php:3569
+#: shortcodes/shortcodes.php:4378
+msgid "Left"
+msgstr ""
+
+#: incl/metaboxes.php:478
+#: shortcodes/shortcodes.php:2408
+#: shortcodes/shortcodes.php:2489
+#: shortcodes/shortcodes.php:3570
+#: shortcodes/shortcodes.php:4379
+msgid "Right"
+msgstr ""
+
+#: incl/metaboxes.php:482
+msgid "Off Canvas Sidebar"
+msgstr ""
+
+#: incl/metaboxes.php:512
+msgid "Footer Sidebar"
+msgstr ""
+
+#: incl/metaboxes.php:614
+#: incl/metaboxes.php:618
+#: incl/metaboxes.php:622
+#: incl/metaboxes.php:626
+msgid "Revolution Slider"
+msgstr ""
+
+#: incl/metaboxes.php:639
+msgid "Revolution slider is disabled for this page, because the page is set as Blog page from Settings->Reading."
+msgstr ""
+
+#: incl/metaboxes.php:645
+msgid "Revolution slider is disabled for this page, because the page is set as Shop page."
+msgstr ""
+
+#: incl/metaboxes.php:667
+msgid "You can choose a Revolution slider to be attached. It will show up on the top of this page/post."
+msgstr ""
+
+#: incl/metaboxes.php:670
+msgid "Select slider"
+msgstr ""
+
+#: incl/metaboxes.php:678
+#: shortcodes/shortcodes.php:2980
+#: shortcodes/shortcodes.php:3412
+#: shortcodes/shortcodes.php:3590
+#: shortcodes/shortcodes.php:3736
+msgid "none"
+msgstr ""
+
+#: incl/metaboxes.php:698
+msgid "Place before header"
+msgstr ""
+
+#: incl/metaboxes.php:760
+msgid "Video Background"
+msgstr ""
+
+#: incl/metaboxes.php:773
+msgid "Video Background options are disabled for this page, because the page is set as Blog page from Settings->Reading."
+msgstr ""
+
+#: incl/metaboxes.php:779
+msgid "Video Background options are disabled for this page, because the page is set as Shop page."
+msgstr ""
+
+#: incl/metaboxes.php:815
+msgid "Define the video background options for this page/post."
+msgstr ""
+
+#: incl/metaboxes.php:818
+#: shortcodes/shortcodes.php:4336
+msgid "YouTube video URL"
+msgstr ""
+
+#: incl/metaboxes.php:822
+msgid "Start time in seconds"
+msgstr ""
+
+#: incl/metaboxes.php:826
+msgid "End time in seconds"
+msgstr ""
+
+#: incl/metaboxes.php:831
+#: shortcodes/shortcodes.php:2511
+msgid "Loop"
+msgstr ""
+
+#: incl/metaboxes.php:835
+msgid "Mute"
+msgstr ""
+
+#: incl/metaboxes.php:915
+msgid "Supersized Slider"
+msgstr ""
+
+#: incl/metaboxes.php:929
+msgid "Supersized slider is disabled for this page, because the page is set as Blog page from Settings->Reading."
+msgstr ""
+
+#: incl/metaboxes.php:935
+msgid "Supersized slider is disabled for this page, because the page is set as Shop page."
+msgstr ""
+
+#: incl/metaboxes.php:955
+msgid "Select images for the Supersized slider which will be used for this page/post."
+msgstr ""
+
+#: incl/metaboxes.php:958
+msgid "Manage images"
+msgstr ""
+
+#: incl/metaboxes.php:958
+msgid "Choose Supersized Images"
+msgstr ""
+
+#: incl/metaboxes.php:958
+msgid "Insert"
+msgstr ""
+
+#: incl/metaboxes.php:1013
+msgid "Portfolio details"
+msgstr ""
+
+#: incl/metaboxes.php:1026
+msgid "Fill any of the following fields. If you leave some of them empty, they won't show on the page."
+msgstr ""
+
+#: incl/metaboxes.php:1029
+msgid "Collection"
+msgstr ""
+
+#: incl/metaboxes.php:1034
+msgid "Materials"
+msgstr ""
+
+#: incl/metaboxes.php:1039
+msgid "Model"
+msgstr ""
+
+#: incl/metaboxes.php:1044
+msgid "Current status of project"
+msgstr ""
+
+#: incl/metaboxes.php:1049
+msgid "Project External Link:"
+msgstr ""
+
+#: incl/metaboxes.php:1051
+msgid "Button Title"
+msgstr ""
+
+#: incl/metaboxes.php:1056
+msgid "Url"
+msgstr ""
+
+#: incl/metaboxes.php:1060
+msgid "Project features list:"
+msgstr ""
+
+#: incl/metaboxes.php:1073
+msgid "Short Description"
+msgstr ""
+
+#: incl/metaboxes.php:1154
+msgid "Featured Image"
+msgstr ""
+
+#: incl/metaboxes.php:1195
+msgid "Remove featured image"
+msgstr ""
+
+#: incl/metaboxes.php:1198
+msgid "Select Featured Image"
+msgstr ""
+
+#: incl/metaboxes.php:1198
+msgid "Set Featured Image"
+msgstr ""
+
+#: incl/metaboxes.php:1198
+msgid "Set featured image"
+msgstr ""
+
+#: incl/metaboxes.php:1248
+msgid "Portfolio Options"
+msgstr ""
+
+#: incl/metaboxes.php:1275
+msgid "Custom Content:"
+msgstr ""
+
+#: incl/metaboxes.php:1280
+msgid "Don't use the portfolio gallery and all portfolio related fields. Use only the content."
+msgstr ""
+
+#: incl/metaboxes.php:1282
+msgid "Portfolio gallery will appear as:"
+msgstr ""
+
+#: incl/metaboxes.php:1285
+msgid "Flex Slider"
+msgstr ""
+
+#: incl/metaboxes.php:1287
+msgid "Cloud Zoom"
+msgstr ""
+
+#: incl/metaboxes.php:1289
+msgid "Image List"
+msgstr ""
+
+#: incl/woocommerce-metaboxes.php:16
+#: incl/woocommerce-metaboxes.php:112
+msgid "Title background image"
+msgstr ""
+
+#: incl/woocommerce-metaboxes.php:22
+#: incl/woocommerce-metaboxes.php:120
+msgid "Upload/Add image"
+msgstr ""
+
+#: incl/woocommerce-metaboxes.php:24
+#: incl/woocommerce-metaboxes.php:122
+msgid "Remove image"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:6
+#: shortcodes/shortcodes.php:3818
+#: shortcodes/shortcodes.php:4461
+msgid "Name"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:7
+#: shortcodes/partials/contact-form.php:124
+#: shortcodes/shortcodes.php:3819
+msgid "E-Mail Address"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:8
+#: shortcodes/partials/contact-form.php:130
+#: shortcodes/shortcodes.php:3820
+msgid "Phone"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:9
+#: shortcodes/partials/contact-form.php:136
+#: shortcodes/shortcodes.php:3821
+msgid "Street Address"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:10
+#: shortcodes/partials/contact-form.php:142
+#: shortcodes/shortcodes.php:3822
+msgid "Subject"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:13
+msgid "Please enter %s."
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:14
+msgid "Please enter a message."
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:15
+msgid "Calculation result was not correct."
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:16
+msgid "Email Address Invalid."
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:17
+msgid "Message was not sent. Try Again."
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:18
+msgid "Thanks! Your message has been sent."
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:99
+msgid "Someone sent a message from %s"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:110
+msgid "Send us a message"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:117
+msgid "Your Name"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:147
+msgid "Message Text"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:154
+msgid "Prove you're a human"
+msgstr ""
+
+#: shortcodes/partials/contact-form.php:162
+msgid "Send message"
+msgstr ""
+
+#: shortcodes/partials/vendors_list.php:13
+msgid "By date"
+msgstr ""
+
+#: shortcodes/partials/vendors_list.php:16
+msgid "By Alphabetically"
+msgstr ""
+
+#: shortcodes/partials/vendors_list.php:19
+msgid "By Category"
+msgstr ""
+
+#: shortcodes/partials/vendors_list.php:33
+msgid "Sort"
+msgstr ""
+
+#: shortcodes/partials/vendors_list.php:60
+msgid "No vendor found!"
+msgstr ""
+
+#: shortcodes/shortcodes.php:298
+#: shortcodes/shortcodes.php:680
+msgid "Next &raquo;"
+msgstr ""
+
+#: shortcodes/shortcodes.php:299
+#: shortcodes/shortcodes.php:681
+msgid "&laquo; Back"
+msgstr ""
+
+#: shortcodes/shortcodes.php:473
+msgid "All portfolios loaded."
+msgstr ""
+
+#: shortcodes/shortcodes.php:474
+msgid "Loading ..."
+msgstr ""
+
+#: shortcodes/shortcodes.php:572
+msgid "show all"
+msgstr ""
+
+#: shortcodes/shortcodes.php:618
+#: shortcodes/shortcodes.php:627
+#: shortcodes/shortcodes.php:652
+msgid "View project"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1341
+msgid "Our Location"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1353
+msgid "Get Directions"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1354
+msgid "Fill in your address or zipcode to calculate the route"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1357
+msgid "Address or postcode"
+msgstr ""
+
+#: shortcodes/shortcodes.php:1358
+msgid "Calculate route"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2260
+msgid "Placeholder"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2323
+msgid "Center-Center"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2324
+msgid "Top-Left"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2325
+msgid "Top-Center"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2326
+msgid "Top-Right"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2327
+msgid "Center-Left"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2328
+msgid "Center-Right"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2329
+msgid "Bottom-Left"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2330
+msgid "Bottom-Center"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2331
+msgid "Bottom-Right"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2349
+msgid "Text before counter"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2352
+msgid "Enter text to be shown before counter."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2356
+msgid "Counting number"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2359
+msgid "Enter the number to count to."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2364
+msgid "Text after counter"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2367
+msgid "Enter text to be shown after counter."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2372
+msgid "Add icon?"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2373
+msgid "Add icon to the counter."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2377
+#: shortcodes/shortcodes.php:3466
+#: shortcodes/shortcodes.php:3559
+msgid "Icon color"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2380
+#: shortcodes/shortcodes.php:3468
+#: shortcodes/shortcodes.php:3561
+msgid "Select icon color."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2399
+msgid "Counter style"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2400
+msgid "Select counter style."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2407
+#: shortcodes/shortcodes.php:2488
+msgid "Centered"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2411
+msgid "Counter alignment"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2412
+msgid "Select counter alignment style."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2416
+#: shortcodes/shortcodes.php:3344
+msgid "Text color"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2419
+msgid "Choose color for the counter text."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2427
+msgid "Counter"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2430
+msgid "Configure counter"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2431
+#: shortcodes/shortcodes.php:2443
+#: shortcodes/shortcodes.php:2535
+#: shortcodes/shortcodes.php:2637
+#: shortcodes/shortcodes.php:2686
+#: shortcodes/shortcodes.php:2788
+#: shortcodes/shortcodes.php:3004
+#: shortcodes/shortcodes.php:3037
+#: shortcodes/shortcodes.php:3184
+#: shortcodes/shortcodes.php:3372
+#: shortcodes/shortcodes.php:3488
+#: shortcodes/shortcodes.php:3617
+#: shortcodes/shortcodes.php:3656
+#: shortcodes/shortcodes.php:3789
+#: shortcodes/shortcodes.php:3834
+#: shortcodes/shortcodes.php:3891
+#: shortcodes/shortcodes.php:3930
+#: shortcodes/shortcodes.php:3969
+#: shortcodes/shortcodes.php:4008
+#: shortcodes/shortcodes.php:4047
+#: shortcodes/shortcodes.php:4072
+#: shortcodes/shortcodes.php:4130
+#: shortcodes/shortcodes.php:4245
+msgid "Zass Shortcodes"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2439
+msgid "Typed"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2442
+msgid "Animated typing"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2447
+msgid "Text before typing rotator"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2450
+msgid "Enter text to be shown before typing rotator."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2454
+msgid "Rotating strings"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2457
+msgid "Enter strings to be rotated, separated by comma, (e.g. One,Two,Tree). Please only use letters and numbers. No special characters. If it’s necessary to use special characters, please use HTML Entities instead (e.g. “&amp;amp;” instead of “&”)"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2462
+msgid "Text after typing rotator"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2465
+msgid "Enter text to be shown after typing rotator."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2480
+msgid "Typed style"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2481
+msgid "Select style."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2492
+#: shortcodes/shortcodes.php:2792
+#: shortcodes/shortcodes.php:3565
+msgid "Alignment"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2493
+msgid "Select alignment style."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2497
+msgid "Static text color"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2500
+msgid "Choose color for the static text."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2504
+msgid "Typed text color"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2507
+msgid "Choose color for the typed text."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2513
+msgid "Start from beginning after the last string."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2518
+#: shortcodes/shortcodes.php:2603
+#: shortcodes/shortcodes.php:2775
+#: shortcodes/shortcodes.php:2990
+#: shortcodes/shortcodes.php:3172
+msgid "CSS box"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2520
+#: shortcodes/shortcodes.php:2605
+#: shortcodes/shortcodes.php:2777
+#: shortcodes/shortcodes.php:2992
+#: shortcodes/shortcodes.php:3174
+#: shortcodes/shortcodes.php:4382
+#: shortcodes/shortcodes.php:4389
+#: shortcodes/shortcodes.php:4396
+#: shortcodes/shortcodes.php:4403
+#: shortcodes/shortcodes.php:4415
+msgid "Design Options"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2527
+msgid "Content Slider"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2536
+msgid "Slide any content"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2541
+msgid "Widget title"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2542
+msgid "Enter text used as widget title (Note: located above content element)."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2553
+msgid "None"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2567
+msgid "Autoplay"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2568
+msgid "Select auto rotate for pageable in seconds (Note: disabled by default)."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2572
+msgid "Prev / Next navigation"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2574
+msgid "Enable Prev / Next navigation"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2579
+msgid "Pagination"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2581
+msgid "Enable pagination"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2587
+#: shortcodes/shortcodes.php:2984
+#: shortcodes/shortcodes.php:3416
+#: shortcodes/shortcodes.php:3594
+#: shortcodes/shortcodes.php:3740
+msgid "Fade"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2588
+msgid "Slide"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2589
+msgid "Slide-Flip"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2592
+msgid "Transition"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2593
+msgid "Select transition effect."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2597
+msgid "Extra class name"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2599
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2623
+#: shortcodes/shortcodes.php:2624
+msgid "Section"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2633
+msgid "Blog Posts"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2636
+msgid "Output Blog posts with customizable Blog style"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2641
+msgid "Blog style"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2645
+#: shortcodes/shortcodes.php:3124
+msgid "Masonry"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2647
+msgid "Choose how the posts will appear."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2651
+#: shortcodes/shortcodes.php:2763
+#: shortcodes/shortcodes.php:3136
+msgid "Sorting direction"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2654
+#: shortcodes/shortcodes.php:2766
+msgid "WordPress Default"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2655
+#: shortcodes/shortcodes.php:2767
+#: shortcodes/shortcodes.php:3140
+#: shortcodes/shortcodes.php:3881
+#: shortcodes/shortcodes.php:4265
+msgid "Ascending"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2656
+#: shortcodes/shortcodes.php:2768
+#: shortcodes/shortcodes.php:3139
+#: shortcodes/shortcodes.php:3880
+#: shortcodes/shortcodes.php:4266
+msgid "Descending"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2658
+#: shortcodes/shortcodes.php:2770
+#: shortcodes/shortcodes.php:3142
+msgid "Choose the date sorting direction."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2662
+msgid "Posts per page"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2665
+msgid "Enter the number of posts displayed per page. Leave blank for default."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2669
+#: shortcodes/shortcodes.php:2756
+#: shortcodes/shortcodes.php:3165
+msgid "Offset"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2672
+#: shortcodes/shortcodes.php:2759
+msgid "Set number of posts to be skipped."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2682
+msgid "Latest Posts"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2685
+msgid "Show Latest Posts"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2690
+msgid "Layout"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2692
+msgid "Grid"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2693
+#: shortcodes/shortcodes.php:3044
+msgid "Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2700
+#: shortcodes/shortcodes.php:3053
+#: shortcodes/shortcodes.php:3903
+#: shortcodes/shortcodes.php:3942
+#: shortcodes/shortcodes.php:3981
+#: shortcodes/shortcodes.php:4020
+#: shortcodes/shortcodes.php:4059
+#: shortcodes/shortcodes.php:4097
+msgid "Columns"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2703
+#: shortcodes/shortcodes.php:3056
+msgid "Number of columns"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2712
+#: shortcodes/shortcodes.php:3064
+msgid "Filter By Category"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2729
+msgid "Enter category names."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2734
+msgid "Hide Image"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2736
+msgid "Don't show post's featured image."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2741
+msgid "Hide Excerpt"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2743
+msgid "Don't show post's excerpt"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2748
+msgid "Number of posts"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2751
+msgid "Enter the number of posts to be displayed."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2784
+msgid "Banner"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2787
+msgid "Output configurable banner"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2795
+msgid "Choose alginment style for the banner."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2799
+#: shortcodes/shortcodes.php:3189
+#: shortcodes/shortcodes.php:3422
+#: shortcodes/shortcodes.php:3515
+#: shortcodes/shortcodes.php:3689
+msgid "Icon library"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2801
+#: shortcodes/shortcodes.php:3191
+#: shortcodes/shortcodes.php:3424
+#: shortcodes/shortcodes.php:3517
+#: shortcodes/shortcodes.php:3691
+msgid "Font Awesome 5"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2802
+#: shortcodes/shortcodes.php:3192
+msgid "Open Iconic"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2803
+#: shortcodes/shortcodes.php:3193
+msgid "Typicons"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2804
+#: shortcodes/shortcodes.php:3194
+msgid "Entypo"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2805
+#: shortcodes/shortcodes.php:3195
+msgid "Linecons"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2806
+#: shortcodes/shortcodes.php:3196
+#: shortcodes/shortcodes.php:3425
+#: shortcodes/shortcodes.php:3518
+#: shortcodes/shortcodes.php:3692
+#: shortcodes/shortcodes.php:4306
+#: shortcodes/shortcodes.php:4311
+#: shortcodes/shortcodes.php:4315
+msgid "Elegant Icons Font"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2810
+#: shortcodes/shortcodes.php:3200
+#: shortcodes/shortcodes.php:3429
+#: shortcodes/shortcodes.php:3522
+#: shortcodes/shortcodes.php:3696
+msgid "Select icon library."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2814
+#: shortcodes/shortcodes.php:2830
+#: shortcodes/shortcodes.php:2846
+#: shortcodes/shortcodes.php:2862
+#: shortcodes/shortcodes.php:2877
+#: shortcodes/shortcodes.php:2893
+#: shortcodes/shortcodes.php:3204
+#: shortcodes/shortcodes.php:3220
+#: shortcodes/shortcodes.php:3236
+#: shortcodes/shortcodes.php:3252
+#: shortcodes/shortcodes.php:3267
+#: shortcodes/shortcodes.php:3283
+#: shortcodes/shortcodes.php:3433
+#: shortcodes/shortcodes.php:3449
+#: shortcodes/shortcodes.php:3526
+#: shortcodes/shortcodes.php:3542
+#: shortcodes/shortcodes.php:3700
+#: shortcodes/shortcodes.php:3716
+#: shortcodes/shortcodes.php:4171
+#: shortcodes/shortcodes.php:4189
+#: shortcodes/shortcodes.php:4207
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2826
+#: shortcodes/shortcodes.php:2842
+#: shortcodes/shortcodes.php:2858
+#: shortcodes/shortcodes.php:2889
+#: shortcodes/shortcodes.php:2906
+#: shortcodes/shortcodes.php:3216
+#: shortcodes/shortcodes.php:3232
+#: shortcodes/shortcodes.php:3248
+#: shortcodes/shortcodes.php:3279
+#: shortcodes/shortcodes.php:3296
+#: shortcodes/shortcodes.php:3445
+#: shortcodes/shortcodes.php:3462
+#: shortcodes/shortcodes.php:3538
+#: shortcodes/shortcodes.php:3555
+#: shortcodes/shortcodes.php:3712
+#: shortcodes/shortcodes.php:3729
+#: shortcodes/shortcodes.php:4184
+#: shortcodes/shortcodes.php:4202
+#: shortcodes/shortcodes.php:4220
+msgid "Select icon from library."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2910
+#: shortcodes/shortcodes.php:3377
+#: shortcodes/shortcodes.php:3493
+#: shortcodes/shortcodes.php:3660
+#: shortcodes/shortcodes.php:3793
+#: shortcodes/shortcodes.php:3871
+#: shortcodes/shortcodes.php:4494
+msgid "Title"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2913
+msgid "Enter the banner title."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2918
+msgid "Title Font Size"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2922
+#: shortcodes/shortcodes.php:3018
+#: shortcodes/shortcodes.php:3849
+msgid "Big"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2924
+msgid "Choose predefined title font size."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2929
+#: shortcodes/shortcodes.php:3668
+msgid "Sub Title"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2932
+msgid "Enter Sub Title."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2936
+msgid "Image"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2939
+msgid "Choose image for the banner. (Actual size will be used)"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2943
+#: shortcodes/shortcodes.php:3762
+msgid "Link"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2946
+msgid "Enter the URL where the banner will lead to."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2950
+msgid "Open in"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2952
+msgid "New window"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2953
+msgid "Same window"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2956
+msgid "Open link in new window or current."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2960
+#: shortcodes/shortcodes.php:3755
+msgid "Button Text"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2963
+#: shortcodes/shortcodes.php:3758
+msgid "Enter text for the button."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2967
+msgid "Color Scheme"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2970
+msgid "Light"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2971
+msgid "Dark"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2973
+msgid "Choose the color scheme."
+msgstr ""
+
+#: shortcodes/shortcodes.php:2977
+#: shortcodes/shortcodes.php:3409
+#: shortcodes/shortcodes.php:3587
+#: shortcodes/shortcodes.php:3733
+msgid "Appear Animation"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2981
+#: shortcodes/shortcodes.php:3413
+#: shortcodes/shortcodes.php:3591
+#: shortcodes/shortcodes.php:3737
+msgid "From Left"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2982
+#: shortcodes/shortcodes.php:3414
+#: shortcodes/shortcodes.php:3592
+#: shortcodes/shortcodes.php:3738
+msgid "From Right"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2983
+#: shortcodes/shortcodes.php:3415
+#: shortcodes/shortcodes.php:3593
+#: shortcodes/shortcodes.php:3739
+msgid "From Bottom"
+msgstr ""
+
+#: shortcodes/shortcodes.php:2986
+#: shortcodes/shortcodes.php:3418
+#: shortcodes/shortcodes.php:3596
+#: shortcodes/shortcodes.php:3742
+msgid "Choose how the element will appear."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3000
+msgid "CloudZoom gallery"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3003
+msgid "Output CloudZoom gallery"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3008
+msgid "Images"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3011
+msgid "Choose images for the gallery."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3015
+msgid "Main image size"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3019
+msgid "Middle"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3020
+msgid "Small"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3022
+msgid "Choose from the predefined main image sizes."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3033
+msgid "Projects"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3036
+msgid "Customisable Projects List"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3041
+msgid "View Style"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3043
+msgid "Grid View"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3045
+msgid "List View"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3048
+msgid "Choose grid or list view"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3081
+msgid "Enter project category names."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3086
+msgid "None-Overlay"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3087
+msgid "Use none-overlay style"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3096
+msgid "Portfolio Gaps"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3097
+msgid "Show gap between projects"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3106
+msgid "Lightbox"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3108
+msgid "Show link that opens the featured image in lightbox"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3112
+msgid "Sortable"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3114
+msgid "Enable Sortable"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3115
+msgid "Show the projects categories on top and show only projects from cpecific category, using sortable."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3126
+msgid "Enable Masonry"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3127
+msgid "Projects will be listed with soft crop of their featured images, keeping the original ratio."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3146
+msgid "Number of Projects Listed"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3149
+msgid "Enter the number of projects to be displayed. NOTE: If leaved empty and carousel option is not selected, porjects will be listed with infinite scroll/pagination"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3154
+msgid "Use Pagination"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3156
+msgid "Use pagination instead of infinite scroll"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3168
+msgid "Set number of projects to be skipped."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3181
+msgid "Icon Title"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3185
+msgid "Icon with text"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3300
+#: shortcodes/shortcodes.php:3857
+msgid "Color"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3320
+msgid "Custom color"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3321
+msgid "Icon color."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3326
+msgid "Custom Icon Color"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3328
+msgid "Select custom icon color."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3336
+msgid "Icon Text"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3339
+#: shortcodes/shortcodes.php:3477
+#: shortcodes/shortcodes.php:3605
+msgid "Enter the text that will be used with the icon"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3346
+msgid "Select text color."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3350
+msgid "Tag"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3361
+msgid "Tag to be used with the icon."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3369
+msgid "Icon Teaser"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3373
+msgid "Icon teaser"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3380
+#: shortcodes/shortcodes.php:3496
+msgid "Enter title"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3385
+#: shortcodes/shortcodes.php:3501
+msgid "Subtitle"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3388
+#: shortcodes/shortcodes.php:3504
+msgid "Enter subtitle"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3392
+#: shortcodes/shortcodes.php:3508
+msgid "Title/Subtitle Color"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3395
+#: shortcodes/shortcodes.php:3511
+msgid "Choose Title/Subtitle color."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3399
+msgid "Align"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3405
+msgid "Choose alignment"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3474
+#: shortcodes/shortcodes.php:3602
+msgid "Text"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3485
+msgid "Icon Box"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3489
+msgid "Icon box"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3568
+#: shortcodes/shortcodes.php:4380
+msgid "Center"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3572
+msgid "Choose icon alignment."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3576
+msgid "Icon Style"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3579
+msgid "Circle"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3580
+msgid "Square"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3581
+msgid "Clean"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3583
+msgid "Choose icon style."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3613
+msgid "Map"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3616
+msgid "Map with location"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3621
+msgid "Location Title"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3624
+msgid "Will appear when hover over the location."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3629
+msgid "Latitude"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3632
+msgid "Enter location latitude."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3636
+msgid "Longitude"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3639
+msgid "Enter location longitude."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3639
+msgctxt "theme-options"
+msgid "Go to %s and get your location coordinates: </br>(e.g. Latitude: 40.588372 / Longitude: -74.240112)"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3643
+msgid "Map height"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3646
+msgid "Map height in px."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3652
+msgid "Pricing Table"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3655
+msgid "Create pricing tables"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3663
+msgid "Enter the table title."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3671
+msgid "Enter sub title."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3675
+msgid "Price"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3678
+msgid "Enter the price for this package. e.g. $157."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3682
+msgid "Period"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3685
+msgid "e.g. per month."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3748
+msgid "Content"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3751
+msgid "Enter the pricing table content"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3765
+msgid "Enter the URL for the button."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3769
+msgid "Accent Color"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3772
+msgid "Choose accent color of the pricing table."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3776
+msgid "Featured"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3778
+msgid "Mark as featured"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3785
+msgid "Contact Form"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3788
+msgid "Configurable Contact Form"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3796
+msgid "Enter contact form title."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3801
+msgid "Receiving Email Address"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3804
+msgid "Email address for receing the contact form email."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3809
+msgid "Use Captcha"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3811
+msgid "Use simple captcha for the contact form"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3815
+msgid "Select Fields for the Contact Form"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3824
+msgid "Choose which fields to be displayed on the contact form. Selcted fields will also be required fields. The message textarea will be always displayed."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3830
+msgid "Countdown"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3833
+msgid "Customized Countdown"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3838
+msgid "Expire Date"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3841
+msgid "Enter the end date for the counter."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3841
+msgid "Use following format YYYY/MM/DD HH:MM:SS, e.g. 2020/04/25 17:45:00"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3852
+msgid "Size"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3853
+msgid "Select counter size."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3860
+msgid "Choose counter color."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3868
+msgid "Date"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3869
+msgid "ID"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3870
+msgid "Author"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3872
+msgid "Modified"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3873
+msgid "Random"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3874
+msgid "Comment count"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3875
+msgid "Menu order"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3888
+msgid "Top Rated Products Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3892
+#: shortcodes/shortcodes.php:4009
+msgid "List all products on sale in carousel"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3896
+#: shortcodes/shortcodes.php:3935
+#: shortcodes/shortcodes.php:3974
+#: shortcodes/shortcodes.php:4013
+#: shortcodes/shortcodes.php:4052
+msgid "Per page"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3899
+#: shortcodes/shortcodes.php:4016
+#: shortcodes/shortcodes.php:4055
+msgid "How much items per page to show"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3906
+#: shortcodes/shortcodes.php:4023
+#: shortcodes/shortcodes.php:4062
+#: shortcodes/shortcodes.php:4100
+msgid "How much columns grid"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3910
+#: shortcodes/shortcodes.php:3949
+#: shortcodes/shortcodes.php:3988
+#: shortcodes/shortcodes.php:4027
+#: shortcodes/shortcodes.php:4083
+#: shortcodes/shortcodes.php:4135
+msgid "Order by"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3913
+#: shortcodes/shortcodes.php:3952
+#: shortcodes/shortcodes.php:3991
+#: shortcodes/shortcodes.php:4030
+#: shortcodes/shortcodes.php:4086
+msgid "Select how to sort retrieved products. More at %s."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3917
+#: shortcodes/shortcodes.php:3956
+#: shortcodes/shortcodes.php:3995
+#: shortcodes/shortcodes.php:4034
+#: shortcodes/shortcodes.php:4090
+#: shortcodes/shortcodes.php:4143
+msgid "Order way"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3920
+#: shortcodes/shortcodes.php:3959
+#: shortcodes/shortcodes.php:3998
+#: shortcodes/shortcodes.php:4037
+#: shortcodes/shortcodes.php:4093
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3927
+msgid "Recent Products Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3931
+msgid "Lists recent products in carousel"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3938
+#: shortcodes/shortcodes.php:3977
+msgid "The \"per_page\" shortcode determines how many products to show on the page"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3945
+#: shortcodes/shortcodes.php:3984
+msgid "The columns attribute controls how many columns wide the products should be before wrapping."
+msgstr ""
+
+#: shortcodes/shortcodes.php:3966
+msgid "Featured Products Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes.php:3970
+msgid "Display products set as featured in carousel"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4005
+msgid "Sale Products Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4044
+msgid "Best Selling Products Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4048
+msgid "List best selling products in carousel"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4069
+msgid "Product Categories Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4073
+msgid "Display categories in carousel"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4077
+#: shortcodes/shortcodes.php:4104
+msgid "Number"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4079
+msgid "The `number` field is used to display the number of products."
+msgstr ""
+
+#: shortcodes/shortcodes.php:4106
+msgid "Hide empty"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4110
+msgid "Categories"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4116
+msgid "List of product categories"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4127
+msgid "Products Slider"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4131
+msgid "Display Products in slider"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4139
+msgid "Select how to sort retrieved products. More at %s. Default by Title"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4146
+msgid "Designates the ascending or descending order. More at %s. Default by ASC"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4150
+msgid "Products"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4159
+msgid "Enter List of Products"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4242
+msgid "WCMp Vendors List"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4246
+msgid "Displays registered vendors"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4250
+msgid "Order By"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4252
+msgid "Date Registered"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4253
+msgid "Vendor Name"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4254
+msgid "Product Category"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4257
+msgid "Sort vendors by chosen order parameter."
+msgstr ""
+
+#: shortcodes/shortcodes.php:4262
+msgid "Order Way"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4268
+msgid "Designates the ascending or descending order."
+msgstr ""
+
+#: shortcodes/shortcodes.php:4273
+msgid "Number of Vendors Listed"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4276
+msgid "Enter the number of vendors to be displayed. NOTE: If leaved empty, all vendors will be listed."
+msgstr ""
+
+#: shortcodes/shortcodes.php:4281
+msgid "Hide Sorting Options"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4283
+msgid "Hide \"Sort\" dropdown"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4339
+msgid "Paste the YouTube URL."
+msgstr ""
+
+#: shortcodes/shortcodes.php:4340
+#: shortcodes/shortcodes.php:4348
+#: shortcodes/shortcodes.php:4355
+#: shortcodes/shortcodes.php:4363
+#: shortcodes/shortcodes.php:4371
+msgid "Zass Video Background"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4344
+msgid "Video Opacity"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4347
+msgid "Set opacity fot the video."
+msgstr ""
+
+#: shortcodes/shortcodes.php:4352
+msgid "Raster"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4354
+msgid "Enable Raster effect"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4359
+msgid "Start time"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4362
+msgid "Set the seconds the video should start at."
+msgstr ""
+
+#: shortcodes/shortcodes.php:4367
+msgid "End time"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4370
+msgid "Set the seconds the video should stop at."
+msgstr ""
+
+#: shortcodes/shortcodes.php:4375
+msgid "General row alignment"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4386
+#: shortcodes/shortcodes.php:4388
+msgid "Allow content overflow"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4393
+#: shortcodes/shortcodes.php:4395
+msgid "Fixed Background"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4400
+#: shortcodes/shortcodes.php:4402
+#: shortcodes/shortcodes.php:4412
+#: shortcodes/shortcodes.php:4414
+msgid "Tear-off Effect"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4425
+msgid "Dysplay Style"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4428
+msgid "Classic Style"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4429
+msgid "Zass Style"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4432
+msgid "Choose between the standart VC style and Zass style."
+msgstr ""
+
+#: shortcodes/shortcodes.php:4459
+#: shortcodes/shortcodes.php:4497
+msgid "Id"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4463
+msgid "Slug"
+msgstr ""
+
+#: shortcodes/shortcodes.php:4489
+msgid "Sku"
+msgstr ""
+
+#: widgets/ZassAboutWidget.php:12
+msgid "Shows excerpt of the About us page"
+msgstr ""
+
+#: widgets/ZassAboutWidget.php:26
+msgid "Read more"
+msgstr ""
+
+#: widgets/ZassAboutWidget.php:34
+msgid "About %s store"
+msgstr ""
+
+#: widgets/ZassAboutWidget.php:42
+#: widgets/ZassContactsWidget.php:67
+#: widgets/ZassLatestProjectsWidget.php:95
+#: widgets/ZassPaymentOptionsWidget.php:82
+#: widgets/ZassPopularPostsWidget.php:98
+msgid "Title:"
+msgstr ""
+
+#: widgets/ZassAboutWidget.php:46
+msgid "Choose the About us page:"
+msgstr ""
+
+#: widgets/ZassContactsWidget.php:12
+msgid "Shows contact details"
+msgstr ""
+
+#: widgets/ZassContactsWidget.php:56
+msgid "Have a Question?"
+msgstr ""
+
+#: widgets/ZassContactsWidget.php:71
+msgid "Store working time:"
+msgstr ""
+
+#: widgets/ZassContactsWidget.php:75
+msgid "Address:"
+msgstr ""
+
+#: widgets/ZassContactsWidget.php:79
+msgid "Phone number:"
+msgstr ""
+
+#: widgets/ZassContactsWidget.php:83
+msgid "Fax number:"
+msgstr ""
+
+#: widgets/ZassContactsWidget.php:87
+msgid "Email address:"
+msgstr ""
+
+#: widgets/ZassLatestProjectsWidget.php:10
+msgid "List your projects with configurable options."
+msgstr ""
+
+#: widgets/ZassLatestProjectsWidget.php:11
+msgid "Zass Latest Projects"
+msgstr ""
+
+#: widgets/ZassLatestProjectsWidget.php:38
+msgid "Latest Projects"
+msgstr ""
+
+#: widgets/ZassLatestProjectsWidget.php:98
+msgid "Number of projects to show:"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:10
+msgid "Display a list of available payment methods and seal code"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:37
+msgid "Payment Options"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:60
+msgid "American Express"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:61
+msgid "Cirrus"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:62
+msgid "Maestro"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:63
+msgid "Mastercard"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:64
+msgid "Visa"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:65
+msgid "Cash on delivery"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:66
+msgid "Direct Debit"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:67
+msgid "PayPal"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:68
+msgid "Cheque"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:69
+msgid "Google checkout"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:70
+msgid "2Checkout"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:71
+msgid "Delta"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:72
+msgid "Discover"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:73
+msgid "Moneybookers"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:74
+msgid "SOLO"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:75
+msgid "Switch"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:76
+msgid "Western Union"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:77
+msgid "Sage Pay"
+msgstr ""
+
+#: widgets/ZassPaymentOptionsWidget.php:94
+msgid "Seal code:"
+msgstr ""
+
+#: widgets/ZassPopularPostsWidget.php:11
+msgid "The most popular posts on your site"
+msgstr ""
+
+#: widgets/ZassPopularPostsWidget.php:12
+msgid "Zass Popular Posts"
+msgstr ""
+
+#: widgets/ZassPopularPostsWidget.php:37
+msgid "Popular Posts"
+msgstr ""
+
+#: widgets/ZassPopularPostsWidget.php:101
+msgid "Number of posts to show:"
+msgstr ""
+
+#: zass-plugin.php:123
+#: zass-plugin.php:134
+msgid "Portfolios"
+msgstr ""
+
+#: zass-plugin.php:124
+msgid "Portfolio"
+msgstr ""
+
+#: zass-plugin.php:125
+msgid "Add New"
+msgstr ""
+
+#: zass-plugin.php:126
+msgid "Add New Portfolio"
+msgstr ""
+
+#: zass-plugin.php:127
+msgid "Edit Portfolio"
+msgstr ""
+
+#: zass-plugin.php:128
+msgid "New Portfolio"
+msgstr ""
+
+#: zass-plugin.php:129
+msgid "View Portfolio"
+msgstr ""
+
+#: zass-plugin.php:130
+msgid "Search Portfolios"
+msgstr ""
+
+#: zass-plugin.php:131
+msgid "No portfolios found"
+msgstr ""
+
+#: zass-plugin.php:132
+msgid "No portfolios found in Trash"
+msgstr ""
+
+#: zass-plugin.php:133
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: zass-plugin.php:156
+msgid "portfolios"
+msgstr ""
+
+#: zass-plugin.php:175
+#: zass-plugin.php:189
+msgid "Portfolio Category"
+msgstr ""
+
+#: zass-plugin.php:176
+msgid "Portfolio categories"
+msgstr ""
+
+#: zass-plugin.php:177
+msgid "Search Portfolio Category"
+msgstr ""
+
+#: zass-plugin.php:178
+msgid "Popular Portfolio Category"
+msgstr ""
+
+#: zass-plugin.php:179
+msgid "All Portfolio Category"
+msgstr ""
+
+#: zass-plugin.php:180
+msgid "Parent Portfolio categories"
+msgstr ""
+
+#: zass-plugin.php:181
+msgid "Parent Portfolio categories:"
+msgstr ""
+
+#: zass-plugin.php:182
+msgid "Edit Portfolio categories"
+msgstr ""
+
+#: zass-plugin.php:183
+msgid "Update Portfolio categories"
+msgstr ""
+
+#: zass-plugin.php:184
+msgid "Add New Portfolio categories"
+msgstr ""
+
+#: zass-plugin.php:185
+msgid "New Portfolio categories"
+msgstr ""
+
+#: zass-plugin.php:186
+msgid "Separate portfolio category with commas"
+msgstr ""
+
+#: zass-plugin.php:187
+msgid "Add or remove portfolio category"
+msgstr ""
+
+#: zass-plugin.php:188
+msgid "Choose from the most used portfolio category"
+msgstr ""
+
+#: zass-plugin.php:232
+msgid "Theme Options"
+msgstr ""
+
+#: zass-plugin.php:554
+msgid "Share"
+msgstr ""
+
+#: zass-plugin.php:558
+msgid "Share on Facebook"
+msgstr ""
+
+#: zass-plugin.php:564
+msgid "Share on Twitter"
+msgstr ""
+
+#: zass-plugin.php:570
+msgid "Share on Pinterest"
+msgstr ""
+
+#: zass-plugin.php:577
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: zass-plugin.php:583
+msgid "Share on VK"
+msgstr ""
